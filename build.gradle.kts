@@ -11,7 +11,7 @@ apply {
 }
 
 group = "com.github.abdullahkhan118"
-version = "1.0.3"
+version = "1.0.4"
 
 repositories {
     mavenCentral()
@@ -27,7 +27,7 @@ tasks.test {
     useJUnitPlatform()
 }
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(17)
 }
 
 afterEvaluate {
@@ -37,7 +37,7 @@ afterEvaluate {
                 from(components["java"])
                 groupId = "com.github.abdullahkhan118"
                 artifactId = "kotlin.extensions"
-                version = "1.0.3"
+                version = "1.0.4"
             }
         }
         repositories {
