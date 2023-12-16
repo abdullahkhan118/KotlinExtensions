@@ -37,7 +37,7 @@ afterEvaluate {
                 from(components["java"])
                 groupId = "com.github.abdullahkhan118"
                 artifactId = "kotlin.extensions"
-                version = "1.0.1"
+                version = "1.0.2"
             }
         }
     }
