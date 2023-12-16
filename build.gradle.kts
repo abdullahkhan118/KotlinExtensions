@@ -11,7 +11,7 @@ apply {
 }
 
 group = "com.github.abdullahkhan118"
-version = "1.0.1"
+version = "1.0.3"
 
 repositories {
     mavenCentral()
@@ -37,8 +37,11 @@ afterEvaluate {
                 from(components["java"])
                 groupId = "com.github.abdullahkhan118"
                 artifactId = "kotlin.extensions"
-                version = "1.0.2"
+                version = "1.0.3"
             }
+        }
+        repositories {
+            mavenLocal()
         }
     }
 }
